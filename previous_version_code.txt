@@ -1,0 +1,67 @@
+Previous Code before latest version.
+
+HTML:
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+
+    <title>AI Music Web App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+    
+    
+  
+</head>
+<body background="aleksandr-popov-JhYnL-BiP18-unsplash.png">
+    <center>
+        <h3 class="btn btn-warning heading">AI MUSIC WEB APP
+            <br>
+            <span class="note">NOTE - Get your left-hand wrist in front of the webcam to play Peter Pan Song. Get your right-hand wrist in front of the webcam to play Harry Potter Theme Song.
+                Keep at least 2 feet distance from the webcam, so that your wrists are detected quickly.
+            </span>
+            
+            
+        </h3>
+        <br>
+        <h4 class="btn btn-danger heading" id="Song_name">Song Name (Placeholder)
+            <br>
+            
+        </h4>
+        <br>
+        <br>
+        <br>
+        <canvas id="musicCanvas"></canvas>
+        
+        
+         
+    </center>
+    
+</body>
+</html>
+
+CSS:
+
+
+.note
+{
+
+    box-shadow: inset;
+    padding: 10%;
+    margin: auto;
+    
+}
+
+#musicCanvas{
+    background-color: #000000;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px #73cfd8;
+    width: 500px;  /* Specify your desired width */
+    height: 300px; /* Specify your desired height */
+}
+
