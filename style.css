@@ -1,15 +1,11 @@
-
-.note
-{
-    
-    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1); /* Adjusted box-shadow to a valid value */
-    padding: 10%; /* Adjusted padding to a fixed value */
+.note {
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 10%;
     margin: auto;
-    text-align: left; /* Ensure text alignment is left for better readability */
-    
+    text-align: left;
 }
 
-#musicCanvas{
+#musicCanvas {
     background-color: #000000;
     border: 5px solid white;
     border-radius: 20px;
@@ -22,6 +18,6 @@
     display: inline-block;
     padding: 20px;
     margin: 20px 0;
-    width: 80%; /* Adjust width to ensure it fits within the parent element */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add a box shadow for better visibility */
+    width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
